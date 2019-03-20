@@ -9,9 +9,80 @@ div {
   width: 100vw;
 }
 
+#topnav ul {
+	margin: 0;
+	padding: 5px;
+	list-style-type: none;
+	text-align: center;
+	background-color: #000;
+	}
+	#topnav ul li {
+		display: inline;
+		}
+
+
+#topnav ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #fff;
+	background-color: #000;
+	border-right: 1px solid #fff;
+	font-family: 'Play',serif;
+	font-size: 15px;
+	}
+#topnav ul li:last-child a {
+	border:none;
+	}
+
+#meniu ul {
+	margin: 0;
+	padding: 0px;
+	list-style-type: none;
+	text-align: center;
+	background-color: transparent;
+}
+
+#meniu ul li {
+		display:inline;
+		text-decoration: none;
+		padding: .3em 1em;
+		color: #fff;
+		background-color: transparent;
+		font-family: 'Play',serif;
+		font-size: 25px;
+		}
+
+    #banner .inner p:first-child{
+    	font-family: 'Play', serif;
+    	font-color: #000;
+    	font-size: 100px;
+    	font-shadow: 4px 4px 4px #aaa;
+    	margin-top:80px;
+    	margin-bottom: 5px;
+    	}
+    #banner .inner p{
+    	font-family: 'Play', serif;
+    	font-color: #000;
+    	font-size: 25px;
+    	font-shadow: 4px 4px 4px #aaa;
+    	}
+    #banner .inner hr {
+        display: block;
+        padding:0;
+    	margin:0;
+        border-style: inset;
+        border-width: 7px;
+    }
+
 h1{
   text-align: center;
-  font-size: 15em;
+  font-size: 5em;
+  padding-top: 100px
+}
+
+h2{
+  text-align: center;
+  font-size: 3em;
   padding-top: 100px
 }
 
@@ -20,10 +91,10 @@ p{
   padding-top: 50px;
 }
 
-h2{
+h3{
   text-align: center;
   padding-top: 30px;
-  font-size: 50em;
+  font-size: 2em;
 }
 
 
