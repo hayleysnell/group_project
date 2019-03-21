@@ -1,17 +1,19 @@
 body {
   color: rgb(149,88,203);
   font-family: arial;
-  margin: 20px;
+  margin: 25px;
 }
+
 
 div {
   min-height: 10vh;
   width: 100vw;
 }
 
+
 #topnav ul {
-	margin: 0;
-	padding: 5px;
+	margin: auto;
+	padding: 20px;
 	list-style-type: none;
 	text-align: center;
 	background-color: #000;
@@ -20,10 +22,9 @@ div {
 		display: inline;
 		}
 
-
 #topnav ul li a {
 	text-decoration: none;
-	padding: .2em 1em;
+	padding: .9em 2em;
 	color: #fff;
 	background-color: #000;
 	border-right: 1px solid #fff;
@@ -33,6 +34,7 @@ div {
 #topnav ul li:last-child a {
 	border:none;
 	}
+
 
 #meniu ul {
 	margin: 0;
@@ -51,6 +53,57 @@ div {
 		font-family: 'Play',serif;
 		font-size: 25px;
 		}
+
+    .tales {
+  width: 100%;
+}
+
+.carousel-inner{
+  width:1300px;
+  max-height: 1000px !important;
+  font-family: "FrankRuehl",serif;
+  text-align-last: center;
+}
+
+.sora-special-box {background: #f8f8f8;overflow: hidden;margin: 0 auto;padding:20px 0;}
+.special-wrap {
+margin:0 auto;
+}
+.special-title {
+text-align: center;
+margin-bottom: 35px;
+}
+.special-title h4 {
+font-size: 35px;
+line-height: 45px;
+color:#303030;
+}
+.special-tiles {
+width: 33.33%;
+float: left;
+padding: 10px;
+box-sizing: border-box;
+text-align: center;
+}
+.special-icons {
+font-size: 45px;
+display: block;
+color: #303030;
+margin-bottom: 20px;
+}
+.special-heading {
+font-size: 14px;
+line-height: 21px;
+color: #303030;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+margin-bottom: 10px;
+font-weight:bold;
+}
+.special-text {
+margin: 0 0 20px;
+color: #606060;
+}
 
     #banner .inner p:first-child{
     	font-family: 'Play', serif;
@@ -73,6 +126,8 @@ div {
         border-style: inset;
         border-width: 7px;
     }
+
+
 
 h1{
   text-align: center;
