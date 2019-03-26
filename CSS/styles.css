@@ -13,7 +13,7 @@ div {
 
 #topnav ul {
 	margin: 0px;
-	padding: 20px;
+	padding: 10px;
 	list-style-type: none;
 	text-align: center;
 	background-color: #000;
@@ -28,7 +28,7 @@ div {
 	color: #fff;
 	background-color: #000;
 	border-right: 1px solid #fff;
-	font-family: 'Play',serif;
+	font-family: 'Helvetica',serif;
 	font-size: 15px;
 	}
 #topnav ul li:last-child a {
@@ -50,9 +50,18 @@ div {
 		padding: .3em 1em;
 		color: #fff;
 		background-color: transparent;
-		font-family: 'Play',serif;
+		font-family: 'FreesiaUPC',serif;
 		font-size: 25px;
 		}
+
+    .header {
+      padding: 0.9px;
+      text-align: center;
+      background: #ffffff;
+      color: black;
+      font-family: 'Gabriola',cursive;
+      font-size: 30px;
+    }
 
     .tales {
   width: 100%;
@@ -65,23 +74,24 @@ div {
   vertical-align: : sup;
 }
 
-.sora-special-box {background: #f8f8f8;overflow: hidden;margin: 0 auto;padding:20px 0;}
+.sora-special-box {background: #f8f8f8;overflow: hidden;margin: 0 auto;padding:10px 0;}
 .special-wrap {
 margin:0 auto;
 }
 .special-title {
 text-align: center;
-margin-bottom: 35px;
+margin-bottom: 30px;
 }
 .special-title h4 {
-font-size: 35px;
-line-height: 45px;
+font-family: 'Gabriola',serif;
+font-size: 50px;
+line-height: 90px;
 color:#303030;
 }
 .special-tiles {
 width: 33.33%;
 float: left;
-padding: 10px;
+padding: 4px;
 box-sizing: border-box;
 text-align: center;
 }
@@ -128,22 +138,11 @@ color: #606060;
     }
 
 
-
-h1{
-  text-align: center;
-  font-size: 5em;
-  padding-top: 100px
-}
-
 h2{
-  text-align: center;
+  text-align: inherit;
+  font-family: 'Gabriola',serif;
   font-size: 3em;
   padding-top: 100px
-}
-
-p{
-  text-align: center;
-  padding-top: 50px;
 }
 
 h3{
@@ -158,13 +157,62 @@ img{
 }
 
 
-div.contrast {
-  background-color: rgb(0,0,0);
-  color: rgb(255,255,255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  div.contrast {
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 10px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    padding: 50px;
+  }
+
 
   /* Style inputs with type="text", select elements and textareas */
   input[type=text], select, textarea {
