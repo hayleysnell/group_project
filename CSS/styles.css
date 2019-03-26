@@ -26,7 +26,10 @@ h2{
   font-size: 50em;
 }
 
-
+img{
+  height: 500px;
+  width: 100px;
+}
 
 
 div.contrast {
