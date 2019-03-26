@@ -225,6 +225,7 @@ img{
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
+<<<<<<< HEAD
 
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
@@ -375,3 +376,5 @@ img{
     font-size: 20px;
     color: #e9e9e9;
   }
+=======
+>>>>>>> 8a8e4de6366d36adbddeba9ef41025a3168893fd
