@@ -15,6 +15,11 @@ div {
   width: 100vw;
 }
 
+img{
+  height: 1000px;
+  width: 1500px;
+}
+
 
 #topnav ul {
 	margin: auto;
@@ -70,7 +75,7 @@ h1{
   padding-top: 100px
 }
 
-h2{
+h2,h3,h4{
   text-align: center;
   font-size: 3em;
   padding-top: 100px
@@ -79,6 +84,8 @@ h2{
 p{
   text-align: center;
   padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 div.contrast {
@@ -99,4 +106,19 @@ div.contrast {
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  ul {
+    list-style: none;
+    text-align: center;
+    padding: 50px;
+    justify-content: space-around;
+  }
+  li{
+    margin: 0 20px;
+    transition: 0.6s ease;
+    text-align: center;
+  }
+  li:hover {
+    font-size: 1.2em;
+    transition: 0.6s ease;
   }
